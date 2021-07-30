@@ -516,6 +516,21 @@ a:hover,
   }
 }
 
+@media (max-width: 419px) {
+  .search {
+    grid-template-rows: 19rem 28rem 14.5rem;
+  }
+  .search__town{
+    max-width: 32rem;
+  }
+  .search__town--saisie{
+    max-width: 22rem;
+  }
+  .filters {
+    grid-template-rows: 4rem 24rem;
+  }
+}
+
 /*//////////////////////////////////////// PARTIE HÉBERGEMENTS ///////////////////////////////////////////*/
 
 /*------------------Hébergements principale---------------------------*/
@@ -1161,7 +1176,6 @@ a:hover,
 @media (max-width: 767px) {
   .siteFooter {
     height: 48.5rem;
-    padding: 4rem 3rem;
     background-color: var(--color3);
     flex-direction: column;
     align-items: flex-start;
