@@ -178,6 +178,7 @@ a:hover,
 
 @media (max-width: 767px) {
   .siteHeader {
+    min-width: 37.5rem;
     grid-template-columns: 1fr 7rem;
     grid-template-rows: 10rem 3rem;
     grid-template-areas:
@@ -518,6 +519,7 @@ a:hover,
 
 @media (max-width: 419px) {
   .search {
+    min-width: 37.5rem;
     grid-template-rows: 19rem 28rem 14.5rem;
   }
   .search__town{
