@@ -1118,7 +1118,7 @@ a:hover,
 /********************************************FOOTER*************************************************************/
 
 .siteFooter {
-  width: 100%;
+  min-width: 37.5rem;
   height: 21.4rem;
   padding: 4rem 5rem;
   background-color: var(--color3);
@@ -1175,6 +1175,7 @@ a:hover,
 
 @media (max-width: 767px) {
   .siteFooter {
+    max-width: 767px;
     height: 48.5rem;
     background-color: var(--color3);
     flex-direction: column;
